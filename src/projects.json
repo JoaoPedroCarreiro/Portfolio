@@ -1,0 +1,18 @@
+{
+    "login-page": {
+        "name": "Cherry Sign-Up",
+        "desc": "Uma página responsiva de Login e criação de conta feita com Html, Css, Javascript, React e Styled Components, onde existe uma verificação para validar o email, nome de usuário e senha, um método de logar com Google por meio de sua Api, e um fundo animado com partículas por meio da lib TsParticles.",
+        "date": "25 de Janeiro de 2024",
+        "href": "https://login-page-joaopedrocarreiros-projects.vercel.app",
+        "github": "https://github.com/JoaoPedroCarreiro/login-page",
+        "color": "white"
+    },
+    "e-commerce": {
+        "name": "Cherry Shop",
+        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End.",
+        "date": "25 de Janeiro de 2024",
+        "href": "https://e-commerce-joaopedrocarreiros-projects.vercel.app",
+        "github": "https://github.com/JoaoPedroCarreiro/E-Commerce",
+        "color": "black"
+    }
+}
