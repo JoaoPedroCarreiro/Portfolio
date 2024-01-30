@@ -48,7 +48,7 @@ export default function Projects() {
                 <Project id="login-page" />
                 <Project id="e-commerce" />
                 <Project id="login-page" />
-                <Project id="login-page" />
+                <Project id="music95" />
             </div>
         </StyledProjects>
     )
