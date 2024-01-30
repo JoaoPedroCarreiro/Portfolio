@@ -1,6 +1,6 @@
 {
-    "name": "Portifolio de João Pedro Carreiro",
-    "short_name": "Portifolio",
+    "name": "Portfólio de João Pedro Carreiro",
+    "short_name": "Portfólio",
     "icons": [
         {
             "src": "/favicon-16x16.png",
@@ -15,6 +15,16 @@
         {
             "src": "/apple-touch-icon.png",
             "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
