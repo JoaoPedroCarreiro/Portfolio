@@ -14,5 +14,13 @@
         "href": "https://e-commerce-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/E-Commerce",
         "color": "black"
+    },
+    "music95": {
+        "name": "Cherry Music 95",
+        "desc": "Um site responsivo que fiz com base no sistema operacional Windows 95, e nele tem um player de música com 20 músicas de 1995 e com um sistema de playlists por meio de localStorage, é possível também controlar o volume no próprio site, e tudo tematizado com o estilo da época.",
+        "date": "22 de Janeiro de 2024",
+        "href": "https://music95.vercel.app",
+        "github": "https://github.com/JoaoPedroCarreiro/music95",
+        "color": "gray"
     }
 }
