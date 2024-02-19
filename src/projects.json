@@ -9,7 +9,7 @@
     },
     "e-commerce": {
         "name": "Cherry Shop",
-        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End. Obs: Aperte 'S' para pular a animação de início",
+        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End.",
         "date": "25 de Janeiro de 2024",
         "href": "https://e-commerce-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/E-Commerce",
@@ -17,7 +17,7 @@
     },
     "music95": {
         "name": "Cherry Music 95",
-        "desc": "Um site responsivo que fiz com base no sistema operacional Windows 95, e nele tem um player de música com 20 músicas de 1995 e com um sistema de playlists por meio de localStorage, é possível também controlar o volume no próprio site, e tudo tematizado com o estilo da época.",
+        "desc": "Um site responsivo que fiz com base no sistema operacional Windows 95, e nele tem um player de música com 20 músicas de 1995 e com um sistema de playlists por meio de localStorage, é possível também controlar o volume no próprio site, e tudo tematizado com o estilo da época. Obs: Aperte 'S' para pular a animação de início.",
         "date": "22 de Janeiro de 2024",
         "href": "https://music95.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/music95",
@@ -25,7 +25,7 @@
     },
     "gameboy": {
         "name": "Cherry Game Boy",
-        "desc": "A Visualização de um modelo 3D de um Game Boy que eu fiz no Blender, a implementação dele no site é por meio da biblioteca Three.js. No site é possível apertar os botões pelo teclado com: Setas para as setas do Game Boy, A e B para o respectivos botões, e Enter e Shift para o Start e o Select, e você pode apertar v para centralizar a câmera.",
+        "desc": "A Visualização de um modelo 3D de um Game Boy que eu fiz no Blender, a implementação dele no site é por meio da biblioteca Three.js. No site é possível apertar os botões pelo teclado com: Setas do teclado para as setas do Game Boy, 'A' e 'B' para o respectivos botões, e 'Enter' e 'Shift' para o Start e o Select, e você pode apertar 'V' para centralizar a câmera.",
         "date": "19 de Fevereiro de 2024",
         "href": "https://game-boy-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/GameBoy",
