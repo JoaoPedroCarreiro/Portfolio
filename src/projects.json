@@ -9,7 +9,7 @@
     },
     "e-commerce": {
         "name": "Cherry Shop",
-        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End.",
+        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End. Obs: Aperte 'S' para pular a animação de início",
         "date": "25 de Janeiro de 2024",
         "href": "https://e-commerce-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/E-Commerce",
@@ -22,5 +22,13 @@
         "href": "https://music95.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/music95",
         "color": "gray"
+    },
+    "gameboy": {
+        "name": "Cherry Game Boy",
+        "desc": "A Visualização de um modelo 3D de um Game Boy que eu fiz no Blender, a implementação dele no site é por meio da biblioteca Three.js. No site é possível apertar os botões pelo teclado com: Setas para as setas do Game Boy, A e B para o respectivos botões, e Enter e Shift para o Start e o Select, e você pode apertar v para centralizar a câmera.",
+        "date": "19 de Fevereiro de 2024",
+        "href": "https://game-boy-joaopedrocarreiros-projects.vercel.app",
+        "github": "https://github.com/JoaoPedroCarreiro/GameBoy",
+        "color": "white"
     }
 }

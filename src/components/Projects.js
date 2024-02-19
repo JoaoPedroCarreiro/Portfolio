@@ -47,8 +47,8 @@ export default function Projects() {
             <div ref={projectsRef} id="projects-display">
                 <Project id="login-page" />
                 <Project id="e-commerce" />
-                <Project id="login-page" />
                 <Project id="music95" />
+                <Project id="gameboy" />
             </div>
         </StyledProjects>
     )
