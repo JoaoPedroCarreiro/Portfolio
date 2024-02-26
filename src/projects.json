@@ -9,7 +9,7 @@
     },
     "e-commerce": {
         "name": "Cherry Shop",
-        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End.",
+        "desc": "Uma Loja de roupas responsiva que utiliza uma Api criada por mim para uma lista de desejos e um carrinho, tem sistema dinâmico de páginas para cada busca no site e página de roupa, na busca é possível filtrar as roupas desejadas. IMPORTANTE: A hospedagem da api está sendo feito gratuitamente pelo site Render, então caso o site não carregue as roupas, espere em torno de 1 minuto e recarregue a página para carregar normalmente os produtos. Obs: O foco do site não é a api, então ela está bem simples, o foco deste projeto em relação a api é a aplicação dela no Front-End.",
         "date": "25 de Janeiro de 2024",
         "href": "https://e-commerce-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/E-Commerce",
