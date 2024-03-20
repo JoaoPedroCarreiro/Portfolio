@@ -5,7 +5,7 @@
         "date": "25 de Janeiro de 2024",
         "href": "https://login-page-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/login-page",
-        "color": "white"
+        "linkedin": "https://www.linkedin.com/posts/jpcarreirof_como-eu-tinha-dito-no-meu-último-post-vou-activity-7168097606475104256-aHvT"
     },
     "e-commerce": {
         "name": "Cherry Shop",
@@ -13,7 +13,8 @@
         "date": "25 de Janeiro de 2024",
         "href": "https://e-commerce-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/E-Commerce",
-        "color": "black"
+        "api": "https://github.com/JoaoPedroCarreiro/API-E-Commerce",
+        "linkedin": "https://www.linkedin.com/posts/jpcarreirof_o-meu-melhor-projeto-que-eu-tenho-um-carinho-activity-7168428250862493696-UrFR"
     },
     "music95": {
         "name": "Cherry Music 95",
@@ -21,7 +22,7 @@
         "date": "22 de Janeiro de 2024",
         "href": "https://music95.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/music95",
-        "color": "gray"
+        "linkedin": "https://www.linkedin.com/posts/jpcarreirof_um-dos-meus-sites-preferidos-%C3%A9-o-cherry-music-activity-7169172326461095936-_uvI"
     },
     "gameboy": {
         "name": "Cherry Game Boy",
@@ -29,6 +30,14 @@
         "date": "19 de Fevereiro de 2024",
         "href": "https://game-boy-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/GameBoy",
-        "color": "white"
+        "linkedin": "https://www.linkedin.com/posts/jpcarreirof_um-projeto-mais-simples-meu-%C3%A9-o-site-que-activity-7170280317193175040-3Igq"
+    },
+    "youtube": {
+        "name": "Youtube Clone",
+        "desc": "A Visualização de um modelo 3D de um Game Boy que eu fiz no Blender, a implementação dele no site é por meio da biblioteca Three.js. No site é possível apertar os botões pelo teclado com: Setas do teclado para as setas do Game Boy, 'A' e 'B' para o respectivos botões, e 'Enter' e 'Shift' para o Start e o Select, e você pode apertar 'V' para centralizar a câmera.",
+        "date": "20 de Março de 2024",
+        "href": "https://youtube-clone-joaopedrocarreiros-projects.vercel.app",
+        "github": "https://github.com/JoaoPedroCarreiro/youtube-clone",
+        "linkedin": "https://www.linkedin.com/posts/jpcarreirof_hoje-eu-acabei-mais-um-projeto-minha-meta-activity-7176307526219546624-wjW-"
     }
 }

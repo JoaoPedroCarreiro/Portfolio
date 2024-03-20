@@ -21,6 +21,21 @@ const StyledModal = styled.div`
 
     transition: opacity ${transitionTimeInSeconds}s linear;
 
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 10px;
+    }
+
     #modal-content {
         width: 80vw;
 
@@ -71,6 +86,43 @@ const StyledModal = styled.div`
             width: 100%;
         }
 
+        #links-site {
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+
+            flex-wrap: wrap;
+            margin: 20px 0;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                gap: 8px;
+                
+                width: 216px;
+                height: fit-content;
+
+                background-color: white;
+                padding: 2px 5px;
+
+                border-radius: 6px;
+
+                span {
+                    color: rgb(21, 21, 21);
+                    font-weight: 600;
+                }
+
+                i {
+                    font-size: 28px;
+                    color: rgb(21, 21, 21);
+                }
+            }
+        }
+
         #imgs {
             width: 100%;
             aspect-ratio: 780 / 414;
@@ -81,33 +133,6 @@ const StyledModal = styled.div`
             border: 3px solid rgb(11, 11, 11);
 
             position: relative;
-        }
-
-        #github-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            gap: 8px;
-
-            height: fit-content;
-
-            margin: 20px 0;
-
-            background-color: white;
-            padding: 2px 5px;
-
-            border-radius: 6px;
-
-            span {
-                color: rgb(21, 21, 21);
-                font-weight: 600;
-            }
-
-            i {
-                font-size: 28px;
-                color: rgb(21, 21, 21);
-            }
         }
     }
 
@@ -185,7 +210,7 @@ const LoadingBar = styled.div`
 
     z-index: 1;
 
-    background-color: ${({ $color }) => $color};
+    backdrop-filter: invert(100%);
     opacity: 0.6;
 `
 
@@ -202,8 +227,8 @@ const Buttons = styled.div`
     gap: 7px;
 
     button {
-        background-color: ${({ $color }) => $color};
-        opacity: 0.8;
+        backdrop-filter: invert(100%);
+        opacity: 0.9;
         width: 7px;
         height: 7px;
 
@@ -335,18 +360,29 @@ export default function Modal() {
                 <div id="left">
                     <a target="_blank" rel="noreferrer" href={projects[id].href} id="link-site">
                         <div ref={imgRef} id="imgs" role="img">
-                            <LoadingBar $color={projects[id].color} ref={loadingBarRef}></LoadingBar>
+                            <LoadingBar ref={loadingBarRef}></LoadingBar>
                         </div>
-                        <Buttons ref={buttonsRef} $color={projects[id].color}>
+                        <Buttons ref={buttonsRef}>
                             <button onClick={(e) => { buttonClick(e, 1) }}></button>
                             <button onClick={(e) => { buttonClick(e, 2) }}></button>
                             <button onClick={(e) => { buttonClick(e, 3) }}></button>
                             <button onClick={(e) => { buttonClick(e, 4) }}></button>
                         </Buttons>
                     </a>
-                    <div style={{ display: "flex", height: "100%", justifyContent: "center", alignItems: "center" }}>
-                        <a target="_blank" rel="noreferrer" href={projects[id].github} id="github-link">
+                    <div id="links-site">
+                        <a style={{ width: `${projects[id].api ? "226px" : ""}` }} target="_blank" rel="noreferrer" href={projects[id].github} id="github-link">
                             <i className="bx bxl-github"></i><span>Acessar repositório</span>
+                        </a>
+                        {
+                            projects[id].api ?
+                                <a style={{ width: "226px" }} target="_blank" rel="noreferrer" href={projects[id].api} id="github-api-link">
+                                    <i className="bx bxl-github"></i><span>Acessar repositório da API</span>
+                                </a>
+                            :
+                                <></>
+                        }
+                        <a style={{ width: `${projects[id].api ? "226px" : ""}` }} target="_blank" rel="noreferrer" href={projects[id].linkedin} id="linkedin-post-link">
+                            <i className="bx bxl-linkedin"></i><span>Acessar post no Linkedin</span>
                         </a>
                     </div>
                 </div>

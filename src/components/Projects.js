@@ -2,6 +2,8 @@ import styled from "styled-components"
 import Project from "./Project"
 import { useEffect, useRef } from "react"
 
+import projects from "projects.json"
+
 const StyledProjects = styled.section`
     position: relative;
 
@@ -40,15 +42,22 @@ export default function Projects() {
         }
     }, [])
 
+    const getProjects = () => {
+        const arr = []
+
+        for(const item in projects) {
+            arr.push(<Project key={item} id={item}/>)
+        }
+
+        return arr
+    }
+
     return (
         <StyledProjects>
             <div id="projects"></div>
             <h2 data-slide-anim="top">Projetos</h2>
             <div ref={projectsRef} id="projects-display">
-                <Project id="login-page" />
-                <Project id="e-commerce" />
-                <Project id="music95" />
-                <Project id="gameboy" />
+                {getProjects()}
             </div>
         </StyledProjects>
     )

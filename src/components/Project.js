@@ -71,8 +71,8 @@ const LoadingBar = styled.div`
 
     z-index: 1;
 
-    background-color: ${({ $color }) => $color};
-    opacity: 0.6;
+    backdrop-filter: invert(100%);
+    opacity: 1;
 `
 
 export default function Project({ id }) {
@@ -127,7 +127,7 @@ export default function Project({ id }) {
         >
             <p ref={nameRef}>{projects[id].name}</p>
             <div ref={wallRef} id="low-opacity-wall"></div>
-            <LoadingBar $color={projects[id].color} ref={loadingBarRef} id="loading-bar"></LoadingBar>
+            <LoadingBar ref={loadingBarRef} id="loading-bar"></LoadingBar>
         </StyledProject>
     )
 }
