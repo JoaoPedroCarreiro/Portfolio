@@ -39,5 +39,14 @@
         "href": "https://youtube-clone-joaopedrocarreiros-projects.vercel.app",
         "github": "https://github.com/JoaoPedroCarreiro/youtube-clone",
         "linkedin": "https://www.linkedin.com/posts/jpcarreirof_hoje-eu-acabei-mais-um-projeto-minha-meta-activity-7176307526219546624-wjW-"
+    },
+    "pizzas": {
+        "name": "Lua Pizzas",
+        "desc": "Um site de uma Pizzaria feito em React, com um BackEnd feito em NodeJS usando um banco de dados MySql, a integração resultando no site com um sistema de criação de contas, de visualização das pizzas e avaliação delas.",
+        "date": "20 de Março de 2024",
+        "href": "https://pizzas-site.vercel.app",
+        "github": "https://github.com/JoaoPedroCarreiro/pizzas-site",
+        "api": "https://github.com/JoaoPedroCarreiro/api-pizzas-site",
+        "linkedin": "https://www.linkedin.com/posts/jpcarreirof_recentemente-comecei-meus-estudos-de-criar-activity-7194029794584383489-e61p"
     }
 }
